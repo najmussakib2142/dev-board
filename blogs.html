@@ -40,7 +40,7 @@
         <h3 class="border-b border-dashed border-gray-300 mb-3 text-lg font-semibold pb-3">
             Question-1: What are the different ways to select an element in the DOM?
         </h3>
-        <p class="text-base font-normal text-gray-600">
+        <p class="text-base font-normal leading-7 text-gray-600">
             getElementById(' ') is more common to select an element in DOM. <br>
              Others are use occasionally, other options include getElementByTagName(' '), getElementByClassName(' '), querySelector(' '), and querySelectorAll(' '). <br>
               For the last two options, we need to use symbols in the brackets, for the class name, we need to use ('.className') and for the ID ('#idName').
@@ -51,7 +51,7 @@
         <h3 class="border-b border-dashed border-gray-300 mb-3 text-lg font-semibold pb-3">
             Question-2: What is the difference between innerHTML, innerText, and textContent ?
         </h3>
-        <p class="text-base font-medium text-gray-600">
+        <p class="text-base font-normal leading-7 text-gray-600">
             The main difference between .innerText and .innerHTML is that. .innerText is only used to show the text content of an element, while .innerHTML is used to show all the HTML content including all the HTML tags within an element. Both innerText and textContent will ignore the HTML tags and show everything as a string.
             <br>
             innerText = only show the text;
@@ -64,8 +64,12 @@
         <h3 class="border-b border-dashed border-gray-300 mb-3 text-lg font-semibold pb-3">
             Question-3: What is event delegation in the DOM?
         </h3>
-        <p class="text-base font-medium text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, cumque.
+        <p class="text-base font-normal leading-7 text-gray-600">
+            Event delegation where we attach an event listener to a 
+            parent element to control its child elements. It allows us 
+            to add or remove elements in the parent element. We use 'event.target'
+            property to determine which child element triggered the event.
+            Event delegation, perform via event bubbling or event capture.
         </p>
     </div>
     <!-- Q 4 -->
@@ -73,8 +77,12 @@
         <h3 class="border-b border-dashed border-gray-300 mb-3 text-lg font-semibold pb-3">
             Question-4: What is event bubbling in the DOM?
         </h3>
-        <p class="text-base font-medium text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, cumque.
+        <p class="text-base font-normal leading-7 text-gray-600"> 
+            Event bubbling is like a chain reaction. 
+            When we click on something, the click 'bubbles up'
+            through all the boxes it's inside. 
+            So, the thing we clicked reacts, then the box around it, 
+            then the box around that, and so on, all the way up the chain.
         </p>
     </div>
     <!-- Q 5 -->
@@ -82,8 +90,12 @@
         <h3 class="border-b border-dashed border-gray-300 mb-3 text-lg font-semibold pb-3">
             Question-5: How do you create, add, and remove elements using JavaScript?
         </h3>
-        <p class="text-base font-medium text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, cumque.
+        <p class="text-base font-normal leading-7 text-gray-600">
+            With tagName like: 'div', 'p', 'li', etc 
+            we can create new element by using document.createElement('tagName'). <br>
+            Also text can be added to to element using textContent or innerHTML. <br>
+            classList.add() and classList.remove() are use to add and remove classes <br>
+            pop, push, shift, unshift are use to add or remove element from first and last element from an array.
         </p>
     </div>
     </main>
