@@ -1,27 +1,3 @@
-// document.addEventListener('DOMContentLoaded', function(){
-    // const taskCountElement = document.getElementById('task-count');
-    // const projectCountElement = document.getElementById('project-count');
-    // const completeButtons = document.querySelectorAll('.complete-btn');
-// 
-    // let taskCount = parseInt(taskCountElement.textContent);
-    // let projectCount = parseInt(projectCountElement.textContent);
-
-    // completeButtons.forEach(button => {
-        // button.addEventListener('click', function(event){
-            
-            // if(!this.disable){
-                // taskCount--;
-                // taskCountElement.textContent = taskCount.toString().padStart(2, '0');
-    // 
-                // projectCount++;
-                // projectCountElement.textContent = projectCount;
-    // 
-                // this.disable = true;
-                // this.classList.add('disabled-btn');
-            // }
-        // })
-    // })
-// })
 
     let completedProjects = 0;
     const totalProjects = 6;
